@@ -64,6 +64,17 @@ body {
     color: #0057FF;
 }
 
+
+.dropdown-menu.show{
+    width: 40rem;
+    padding: 1rem;
+}
+
+
+.dropdown-menu.show a p{
+    color: #000;
+}
+
 .main .form-input button{
     margin: 5px;
     height: 45px;
@@ -197,7 +208,6 @@ body {
 }
 
 
-
 .main section .card {
     display: flex;
     justify-content: center;
@@ -259,6 +269,11 @@ body {
 .main section .card .card-body form .form-edit{
     padding: 0;
     margin: 10px 10px 10px 0;
+}
+
+.main section .card .card-body form .form-edit{
+    width:380px;
+    height: 250px;
 }
 
 .main section .card .card-body form a{
@@ -474,4 +489,48 @@ a.sidebar-link:hover {
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
     transform: rotate(45deg);
     transition: all .2s ease-out;
+}
+
+@media screen and (max-width:768px){
+    
+    table.table{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    
+    .dropdown-menu.show{
+        width: 350px;
+        padding: 1rem;
+    }
+
+    .dropdown-menu.show a p{
+        font-size: 0.6rem;
+    }
+
+
+    table.table{
+        padding: 0;
+        font-size: 8px;
+    }
+    table.table tbody tr td button{
+        font-size: 8px;
+    }
+    .prefence .buttons{
+        width: 40px;
+        height: 20px;
+    }
+
+    .prefence .buttons::before{
+        width: 10px;
+        height: 10px;
+    }
+
+    .prefence p{
+        margin: 0;
+    }
+    .prefence input:checked + .buttons::before{
+        transform: translateX(20px);
+    }
 }

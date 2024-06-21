@@ -9,7 +9,7 @@
           <!-- Invite Active -->
           <div class="col-12">
             <div class="invite-message">
-              <div class="invite-content text-center">
+              {{-- <div class="invite-content text-center">
                 <div class="invite-post d-flex border border-primary">
                   <img class="cover-undangan" src="img/undangan bagas.png" alt="">
                   <div class="title-undangan">
@@ -20,7 +20,14 @@
               </div>
               <div class="col-12 d-flex justify-content-end">
                 <a href="/packet" class="btn btn-primary ">+ Buat Undangan</a>
-            </div>
+            </div> --}}
+            <div class="invite-content text-center">
+              <img src="img/No data.png" alt="">
+              <p>Belum ada yang kamu buat</p>
+              <div class="invite-bottuns">
+                  <a href="/packet" type="button" class="btn btn-primary">+ Buat Undangan</a>
+              </div>
+          </div>
             </div>
           </div>
         </div>

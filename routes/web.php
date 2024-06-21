@@ -26,8 +26,8 @@ Route::get('/about', function () {
 Route::get('/add', function () {
     return view('Add-ons');
 });
-Route::get('/invite-detail', function () {
-    return view('Invite-detail');
+Route::get('/invite-form', function () {
+    return view('Invite-form');
 });
 Route::get('/template', function () {
     return view('Template');
@@ -46,6 +46,12 @@ Route::get('/struck', function () {
 });
 Route::get('/type', function () {
     return view('Invite-type');
+});
+Route::get('/data', function () {
+    return view('no-data');
+});
+Route::get('/proses', function () {
+    return view('proses');
 });
 
 // register

@@ -10,8 +10,31 @@
       <div class="input-box d-flex">
         <button class="search btn bg-white" type="submit"><i data-feather="search"></i></button>
         <input class="form-control me-2" type="search" placeholder="Cari Disini..." aria-label="Search">
-        <button class="btn bg-white" type="submit"><i data-feather="bell"></i></button>
-        <button class="btn bg-white" type="submit"><i data-feather="mail"></i></button>
+        <div class="btn-group">
+          <button type="button" class="btn bg-white dropdown-toggle" data-bs-toggle="dropdown">
+            <i data-feather="bell"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="notif d-flex align-items-center justify-content-between">
+                <a href=""><p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p></a>
+                <button type="button" class="btn-close" aria-label="Close"></button>
+              </div>
+            </li>
+            <li>
+              <div class="notif d-flex align-items-center justify-content-between">
+                <a href=""><p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p></a>
+                <button type="button" class="btn-close" aria-label="Close"></button>
+              </div>
+            </li>
+            <li>
+              <div class="notif d-flex align-items-center justify-content-between">
+                <a href=""><p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p></a>
+                <button type="button" class="btn-close" aria-label="Close"></button>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

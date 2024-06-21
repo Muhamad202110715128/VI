@@ -13,10 +13,9 @@
                     <p>Ada banyak pilihan Preset sesuai kategori kebutuhanmu yang Bisa Kamu Pilih Sesuai Dengan Seleramu
                       <br class=""><span class="blue-text text-primary">Dan bisa Langsung Pakai !</span></p>
                   </div>
-                  <div class="undangan-type d-flex justify-content-center mt-5">
-                    <a href="">
-                      <div class="type mb-3 me-3 " >
-                        <a href="/invite-detail">
+                  <div class="undangan-type d-flex justify-content-center mt-5 mb-4">
+                      <div class="col-lg-6 type mb-3 me-3 " >
+                        <a href="/invite-form">
                           <div class="card-undangan d-flex bg-primary">
                             <div class="col-md-8 ">
                               <div class="card-body">
@@ -30,11 +29,9 @@
                           </div>
                         </a>
                       </div>
-                    </a>
                     
-                    <a href="/invite-detail">
-                      <div class="type mb-3 ms-2" >
-                        <a href="">
+                      <div class="col-lg-6 type mb-3 ms-2" >
+                        <a href="/invite-form">
                           <div class="card-undangan d-flex" >
                             <div class="col-md-8">
                               <div class="card-body">
@@ -48,12 +45,11 @@
                           </div>
                         </a>
                       </div>
-                    </a>
                   </div>
                   
-                  <div class="undangan-type d-flex justify-content-center mt-4">
-                    <div class="type mb-3" >
-                      <a href="/invite-detail">
+                  <div class="undangan-type d-flex justify-content-center">
+                    <div class="col-md-6 type mb-3" >
+                      <a href="/invite-form">
                         <div class="card-undangan d-flex">
                           <div class="col-md-8">
                             <div class="card-body">
