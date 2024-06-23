@@ -17,19 +17,19 @@
           <ul class="dropdown-menu">
             <li>
               <div class="notif d-flex align-items-center justify-content-between">
-                <a href=""><p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p></a>
+                <a href=""><p class="m-0">Pembayaran Paket Gold Anda Telah Berhasil Berhasil</p></a>
                 <button type="button" class="btn-close" aria-label="Close"></button>
               </div>
             </li>
             <li>
               <div class="notif d-flex align-items-center justify-content-between">
-                <a href=""><p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p></a>
+                <a href=""><p class="m-0">Pembayaran Paket Gold Anda Gagal, Mohon untuk lebih teliti dalam melakukan pembayaran</p></a>
                 <button type="button" class="btn-close" aria-label="Close"></button>
               </div>
             </li>
             <li>
               <div class="notif d-flex align-items-center justify-content-between">
-                <a href=""><p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet.</p></a>
+                <a href=""><p class="m-0">Undangan sedang dalam proses. Mohon tunggu</p></a>
                 <button type="button" class="btn-close" aria-label="Close"></button>
               </div>
             </li>
