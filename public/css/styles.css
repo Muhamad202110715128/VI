@@ -177,7 +177,10 @@ body {
 }
 
 .main .invite-message .template-post .card-content{
-    background: #fff;
+    background-image: url("../img/undangan\ bagas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 300px;
     height: 300px;
     margin: 1rem;
