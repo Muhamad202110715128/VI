@@ -12,15 +12,12 @@
                     <div class="template-post">
                         <div class="row">
                             <div class="card-content border border-primary text-center">
-                                <img src="" alt="">
                                 <h4>Template 1</h4>
                             </div>
                             <div class="card-content border border-primary text-center">
-                                <img src="" alt="">
                                 <h4>Template 2</h4>
                             </div>
                             <div class="card-content border border-primary text-center">
-                                <img src="" alt="">
                                 <h4>Template 3</h4>
                             </div>
                         </div>
@@ -28,15 +25,12 @@
                     <div class="template-post">
                         <div class="row">
                             <div class="card-content border border-primary text-center">
-                                <img src="" alt="">
                                 <h4>Template 4</h4>
                             </div>
                             <div class="card-content border border-primary text-center">
-                                <img src="" alt="">
                                 <h4>Template 5</h4>
                             </div>
                             <div class="card-content border border-primary text-center">
-                                <img src="" alt="">
                                 <h4>Template 6</h4>
                             </div>
                         </div>
